@@ -1,7 +1,7 @@
 ﻿
 namespace Tyuiu.AramaAG.Sprint6.Task2.V13
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Обязательная переменная конструктора.
