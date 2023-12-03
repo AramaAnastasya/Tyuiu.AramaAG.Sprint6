@@ -63,9 +63,9 @@ namespace Tyuiu.AramaAG.Sprint6.Task0.V17.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap formula {
+        internal static System.Drawing.Bitmap Formula {
             get {
-                object obj = ResourceManager.GetObject("formula", resourceCulture);
+                object obj = ResourceManager.GetObject("Formula", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -60,11 +60,11 @@ namespace Tyuiu.AramaAG.Sprint6.Task0.V17
             // 
             // pictureBoxNamedTwo_AAG
             // 
-            this.pictureBoxNamedTwo_AAG.ErrorImage = global::Tyuiu.AramaAG.Sprint6.Task0.V17.Properties.Resources.formula;
-            this.pictureBoxNamedTwo_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task0.V17.Properties.Resources.formula;
+            this.pictureBoxNamedTwo_AAG.ErrorImage = null;
+            this.pictureBoxNamedTwo_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task0.V17.Properties.Resources.Formula;
             this.pictureBoxNamedTwo_AAG.Location = new System.Drawing.Point(478, 25);
             this.pictureBoxNamedTwo_AAG.Name = "pictureBoxNamedTwo_AAG";
-            this.pictureBoxNamedTwo_AAG.Size = new System.Drawing.Size(96, 61);
+            this.pictureBoxNamedTwo_AAG.Size = new System.Drawing.Size(136, 104);
             this.pictureBoxNamedTwo_AAG.TabIndex = 0;
             this.pictureBoxNamedTwo_AAG.TabStop = false;
             // 
