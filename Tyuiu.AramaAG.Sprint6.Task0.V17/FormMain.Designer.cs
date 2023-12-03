@@ -40,7 +40,6 @@ namespace Tyuiu.AramaAG.Sprint6.Task0.V17
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.pictureBoxNamedTwo_AAG = new System.Windows.Forms.PictureBox();
             this.groupBoxNamedTwo_AAG = new System.Windows.Forms.GroupBox();
             this.textBoxNamedFour_AAG = new System.Windows.Forms.TextBox();
@@ -61,8 +60,8 @@ namespace Tyuiu.AramaAG.Sprint6.Task0.V17
             // 
             // pictureBoxNamedTwo_AAG
             // 
-            this.pictureBoxNamedTwo_AAG.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxNamedTwo_AAG.ErrorImage")));
-            this.pictureBoxNamedTwo_AAG.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxNamedTwo_AAG.Image")));
+            this.pictureBoxNamedTwo_AAG.ErrorImage = global::Tyuiu.AramaAG.Sprint6.Task0.V17.Properties.Resources.formula;
+            this.pictureBoxNamedTwo_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task0.V17.Properties.Resources.formula;
             this.pictureBoxNamedTwo_AAG.Location = new System.Drawing.Point(478, 25);
             this.pictureBoxNamedTwo_AAG.Name = "pictureBoxNamedTwo_AAG";
             this.pictureBoxNamedTwo_AAG.Size = new System.Drawing.Size(96, 61);
