@@ -31,16 +31,16 @@ namespace Tyuiu.AramaAG.Sprint6.Task1.V15
         {
             this.textBoxResult_AAG = new System.Windows.Forms.TextBox();
             this.groupBoxNamedOne_AAG = new System.Windows.Forms.GroupBox();
+            this.labelTextResult_AAG = new System.Windows.Forms.Label();
             this.buttonDone_AAG = new System.Windows.Forms.Button();
             this.buttonHelp_AAG = new System.Windows.Forms.Button();
             this.groupBoxData_AAG = new System.Windows.Forms.GroupBox();
+            this.labelTextFinish_AAG = new System.Windows.Forms.Label();
+            this.labelTextStart_AAG = new System.Windows.Forms.Label();
             this.textBoxStopStep_AAG = new System.Windows.Forms.TextBox();
             this.textBoxStartStep_AAG = new System.Windows.Forms.TextBox();
             this.groupBoxConditions_AAG = new System.Windows.Forms.GroupBox();
             this.textBoxConditions_AAG = new System.Windows.Forms.TextBox();
-            this.labelTextResult_AAG = new System.Windows.Forms.Label();
-            this.labelTextStart_AAG = new System.Windows.Forms.Label();
-            this.labelTextFinish_AAG = new System.Windows.Forms.Label();
             this.groupBoxNamedOne_AAG.SuspendLayout();
             this.groupBoxData_AAG.SuspendLayout();
             this.groupBoxConditions_AAG.SuspendLayout();
@@ -71,6 +71,15 @@ namespace Tyuiu.AramaAG.Sprint6.Task1.V15
             this.groupBoxNamedOne_AAG.TabIndex = 1;
             this.groupBoxNamedOne_AAG.TabStop = false;
             this.groupBoxNamedOne_AAG.Text = "Вывод данных";
+            // 
+            // labelTextResult_AAG
+            // 
+            this.labelTextResult_AAG.AutoSize = true;
+            this.labelTextResult_AAG.Location = new System.Drawing.Point(6, 29);
+            this.labelTextResult_AAG.Name = "labelTextResult_AAG";
+            this.labelTextResult_AAG.Size = new System.Drawing.Size(93, 20);
+            this.labelTextResult_AAG.TabIndex = 1;
+            this.labelTextResult_AAG.Text = "Результат:";
             // 
             // buttonDone_AAG
             // 
@@ -110,6 +119,24 @@ namespace Tyuiu.AramaAG.Sprint6.Task1.V15
             this.groupBoxData_AAG.TabIndex = 4;
             this.groupBoxData_AAG.TabStop = false;
             this.groupBoxData_AAG.Text = "Ввод данных:";
+            // 
+            // labelTextFinish_AAG
+            // 
+            this.labelTextFinish_AAG.AutoSize = true;
+            this.labelTextFinish_AAG.Location = new System.Drawing.Point(146, 23);
+            this.labelTextFinish_AAG.Name = "labelTextFinish_AAG";
+            this.labelTextFinish_AAG.Size = new System.Drawing.Size(97, 20);
+            this.labelTextFinish_AAG.TabIndex = 8;
+            this.labelTextFinish_AAG.Text = "Конец шага";
+            // 
+            // labelTextStart_AAG
+            // 
+            this.labelTextStart_AAG.AutoSize = true;
+            this.labelTextStart_AAG.Location = new System.Drawing.Point(11, 23);
+            this.labelTextStart_AAG.Name = "labelTextStart_AAG";
+            this.labelTextStart_AAG.Size = new System.Drawing.Size(102, 20);
+            this.labelTextStart_AAG.TabIndex = 7;
+            this.labelTextStart_AAG.Text = "Старт шага:";
             // 
             // textBoxStopStep_AAG
             // 
@@ -154,33 +181,6 @@ namespace Tyuiu.AramaAG.Sprint6.Task1.V15
             this.textBoxConditions_AAG.Text = "Протабулировать функцию (COS(x)/(x-0,7))-SIN(x)*12*x+2 на заданном диапазоне.Резу" +
     "льтат вывести в таблице.";
             // 
-            // labelTextResult_AAG
-            // 
-            this.labelTextResult_AAG.AutoSize = true;
-            this.labelTextResult_AAG.Location = new System.Drawing.Point(6, 29);
-            this.labelTextResult_AAG.Name = "labelTextResult_AAG";
-            this.labelTextResult_AAG.Size = new System.Drawing.Size(93, 20);
-            this.labelTextResult_AAG.TabIndex = 1;
-            this.labelTextResult_AAG.Text = "Результат:";
-            // 
-            // labelTextStart_AAG
-            // 
-            this.labelTextStart_AAG.AutoSize = true;
-            this.labelTextStart_AAG.Location = new System.Drawing.Point(11, 23);
-            this.labelTextStart_AAG.Name = "labelTextStart_AAG";
-            this.labelTextStart_AAG.Size = new System.Drawing.Size(102, 20);
-            this.labelTextStart_AAG.TabIndex = 7;
-            this.labelTextStart_AAG.Text = "Старт шага:";
-            // 
-            // labelTextFinish_AAG
-            // 
-            this.labelTextFinish_AAG.AutoSize = true;
-            this.labelTextFinish_AAG.Location = new System.Drawing.Point(146, 23);
-            this.labelTextFinish_AAG.Name = "labelTextFinish_AAG";
-            this.labelTextFinish_AAG.Size = new System.Drawing.Size(97, 20);
-            this.labelTextFinish_AAG.TabIndex = 8;
-            this.labelTextFinish_AAG.Text = "Конец шага";
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -191,6 +191,7 @@ namespace Tyuiu.AramaAG.Sprint6.Task1.V15
             this.Controls.Add(this.buttonHelp_AAG);
             this.Controls.Add(this.buttonDone_AAG);
             this.Controls.Add(this.groupBoxNamedOne_AAG);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "FormMain";
