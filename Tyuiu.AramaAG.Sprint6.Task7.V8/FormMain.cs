@@ -17,7 +17,7 @@ namespace Tyuiu.AramaAG.Sprint6.Task7.V8
         public FormMain()
         {
             InitializeComponent();
-            openFileDialogTask.Filter = "Значения, разделенные запятыми(* .csv)|*.csv|Все фалы(*.*)|*.*";
+            openFileDialogTask_AAG.Filter = "Значения, разделенные запятыми(* .csv)|*.csv|Все фалы(*.*)|*.*";
             saveFileDialogMatrix_AAG.Filter = "Значения, разделенные запятыми(* .csv)|*.csv|Все фалы(*.*)|*.*";
         }
         static string OpenFilePath;
@@ -99,8 +99,8 @@ namespace Tyuiu.AramaAG.Sprint6.Task7.V8
         }
         private void ClickOpenFile_AAG(object sender, EventArgs e)
         {
-            openFileDialogTask.ShowDialog();
-            OpenFilePath = openFileDialogTask.FileName;
+            openFileDialogTask_AAG.ShowDialog();
+            OpenFilePath = openFileDialogTask_AAG.FileName;
 
             int[,] arrayValues = LoadFromFileDta(OpenFilePath);
             dataGridViewInMatrix_AAG.ColumnCount = columns;
@@ -132,24 +132,24 @@ namespace Tyuiu.AramaAG.Sprint6.Task7.V8
 
         private void VouseEntesOpen_AAG(object sender, EventArgs e)
         {
-            toolTipOne.ToolTipTitle = "Открыть файл";
+            toolTipOne_AAG.ToolTipTitle = "Открыть файл";
         }
 
         private void ClickDoneFile_AAG(object sender, EventArgs e)
         {
-            toolTipOne.ToolTipTitle = "Выполнить";
+            toolTipOne_AAG.ToolTipTitle = "Выполнить";
 
         }
 
         private void ClickSaveFile_AAG(object sender, EventArgs e)
         {
-            toolTipOne.ToolTipTitle = "Созранить в файл";
+            toolTipOne_AAG.ToolTipTitle = "Сохранить в файл";
 
         }
 
         private void ClickHelpFile_AAG(object sender, EventArgs e)
         {
-            toolTipOne.ToolTipTitle = "Справка";
+            toolTipOne_AAG.ToolTipTitle = "Справка";
 
         }
 
