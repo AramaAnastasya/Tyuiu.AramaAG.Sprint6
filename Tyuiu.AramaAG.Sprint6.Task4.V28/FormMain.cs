@@ -93,5 +93,10 @@ namespace Tyuiu.AramaAG.Sprint6.Task4.V28
         {
 
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
