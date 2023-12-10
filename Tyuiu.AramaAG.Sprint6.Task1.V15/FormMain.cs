@@ -30,16 +30,16 @@ namespace Tyuiu.AramaAG.Sprint6.Task1.V15
                 double[] func = new double[len];
                 func = ds.GetMassFunction(startstep, stopstep);
                 textBoxResult_AAG.Text = "";
-                textBoxResult_AAG.AppendText("+---------------------------- +" + Environment.NewLine);
-                textBoxResult_AAG.AppendText("|    x     |     f(x)    |" + Environment.NewLine);
-                textBoxResult_AAG.AppendText("+-----------------------------+" + Environment.NewLine);
+                textBoxResult_AAG.AppendText("+-------------------------+" + Environment.NewLine);
+                textBoxResult_AAG.AppendText("|    X      |      f(x)   |" + Environment.NewLine);
+                textBoxResult_AAG.AppendText("+-------------------------+" + Environment.NewLine);
                 for (int i = 0; i <= len - 1; i++)
                 {
-                    str = String.Format("|{0, 6:d}    |  {1, 8:f2}    |", startstep, func[i]);
+                    str = String.Format("|{0, 6:d}     |  {1, 7:f2}    |", startstep, func[i]);
                     textBoxResult_AAG.AppendText(str + Environment.NewLine);
                     startstep++;
                 }
-                textBoxResult_AAG.AppendText("+----------------------------+" + Environment.NewLine);
+                textBoxResult_AAG.AppendText("+-------------------------+" + Environment.NewLine);
             }
             catch
             {
