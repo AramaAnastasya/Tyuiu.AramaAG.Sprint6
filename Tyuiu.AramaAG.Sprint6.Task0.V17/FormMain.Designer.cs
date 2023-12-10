@@ -40,9 +40,9 @@ namespace Tyuiu.AramaAG.Sprint6.Task0.V17
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBoxNamedTwo_AAG = new System.Windows.Forms.PictureBox();
-            this.groupBoxNamedTwo_AAG = new System.Windows.Forms.GroupBox();
-            this.textBoxNamedFour_AAG = new System.Windows.Forms.TextBox();
+            this.pictureBoxFormula_AAG = new System.Windows.Forms.PictureBox();
+            this.groupBoxCondition_AAG = new System.Windows.Forms.GroupBox();
+            this.textBoxTestTask_AAG = new System.Windows.Forms.TextBox();
             this.groupBoxNamedThree_AAG = new System.Windows.Forms.GroupBox();
             this.groupBoxNamedSix_AAG = new System.Windows.Forms.GroupBox();
             this.nameX_AAG = new System.Windows.Forms.TextBox();
@@ -50,50 +50,50 @@ namespace Tyuiu.AramaAG.Sprint6.Task0.V17
             this.Result_AAG = new System.Windows.Forms.TextBox();
             this.groupBoxNameddTwo_AAG = new System.Windows.Forms.GroupBox();
             this.buttonNamedOne_AAG = new System.Windows.Forms.Button();
-            this.buttonNamedThree_AAG = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNamedTwo_AAG)).BeginInit();
-            this.groupBoxNamedTwo_AAG.SuspendLayout();
+            this.buttonHelp_AAG = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_AAG)).BeginInit();
+            this.groupBoxCondition_AAG.SuspendLayout();
             this.groupBoxNamedThree_AAG.SuspendLayout();
             this.groupBoxNamedSix_AAG.SuspendLayout();
             this.groupBoxNamedFour_AAG.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBoxNamedTwo_AAG
+            // pictureBoxFormula_AAG
             // 
-            this.pictureBoxNamedTwo_AAG.ErrorImage = null;
-            this.pictureBoxNamedTwo_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task0.V17.Properties.Resources.Formula;
-            this.pictureBoxNamedTwo_AAG.Location = new System.Drawing.Point(478, 25);
-            this.pictureBoxNamedTwo_AAG.Name = "pictureBoxNamedTwo_AAG";
-            this.pictureBoxNamedTwo_AAG.Size = new System.Drawing.Size(136, 104);
-            this.pictureBoxNamedTwo_AAG.TabIndex = 0;
-            this.pictureBoxNamedTwo_AAG.TabStop = false;
+            this.pictureBoxFormula_AAG.ErrorImage = null;
+            this.pictureBoxFormula_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task0.V17.Properties.Resources.Formula;
+            this.pictureBoxFormula_AAG.Location = new System.Drawing.Point(478, 25);
+            this.pictureBoxFormula_AAG.Name = "pictureBoxFormula_AAG";
+            this.pictureBoxFormula_AAG.Size = new System.Drawing.Size(136, 104);
+            this.pictureBoxFormula_AAG.TabIndex = 0;
+            this.pictureBoxFormula_AAG.TabStop = false;
             // 
-            // groupBoxNamedTwo_AAG
+            // groupBoxCondition_AAG
             // 
-            this.groupBoxNamedTwo_AAG.Controls.Add(this.textBoxNamedFour_AAG);
-            this.groupBoxNamedTwo_AAG.Controls.Add(this.pictureBoxNamedTwo_AAG);
-            this.groupBoxNamedTwo_AAG.Location = new System.Drawing.Point(12, 25);
-            this.groupBoxNamedTwo_AAG.Name = "groupBoxNamedTwo_AAG";
-            this.groupBoxNamedTwo_AAG.Size = new System.Drawing.Size(666, 184);
-            this.groupBoxNamedTwo_AAG.TabIndex = 2;
-            this.groupBoxNamedTwo_AAG.TabStop = false;
-            this.groupBoxNamedTwo_AAG.Text = "Условие";
+            this.groupBoxCondition_AAG.Controls.Add(this.textBoxTestTask_AAG);
+            this.groupBoxCondition_AAG.Controls.Add(this.pictureBoxFormula_AAG);
+            this.groupBoxCondition_AAG.Location = new System.Drawing.Point(12, 25);
+            this.groupBoxCondition_AAG.Name = "groupBoxCondition_AAG";
+            this.groupBoxCondition_AAG.Size = new System.Drawing.Size(666, 184);
+            this.groupBoxCondition_AAG.TabIndex = 2;
+            this.groupBoxCondition_AAG.TabStop = false;
+            this.groupBoxCondition_AAG.Text = "Условие";
             // 
-            // textBoxNamedFour_AAG
+            // textBoxTestTask_AAG
             // 
-            this.textBoxNamedFour_AAG.BackColor = System.Drawing.SystemColors.Window;
-            this.textBoxNamedFour_AAG.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNamedFour_AAG.Location = new System.Drawing.Point(6, 21);
-            this.textBoxNamedFour_AAG.Multiline = true;
-            this.textBoxNamedFour_AAG.Name = "textBoxNamedFour_AAG";
-            this.textBoxNamedFour_AAG.ReadOnly = true;
-            this.textBoxNamedFour_AAG.Size = new System.Drawing.Size(242, 22);
-            this.textBoxNamedFour_AAG.TabIndex = 1;
-            this.textBoxNamedFour_AAG.Text = "Вычислить выражение по формуле:";
+            this.textBoxTestTask_AAG.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxTestTask_AAG.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTestTask_AAG.Location = new System.Drawing.Point(6, 21);
+            this.textBoxTestTask_AAG.Multiline = true;
+            this.textBoxTestTask_AAG.Name = "textBoxTestTask_AAG";
+            this.textBoxTestTask_AAG.ReadOnly = true;
+            this.textBoxTestTask_AAG.Size = new System.Drawing.Size(448, 143);
+            this.textBoxTestTask_AAG.TabIndex = 1;
+            this.textBoxTestTask_AAG.Text = "Вычислить выражение по формуле:";
             // 
             // groupBoxNamedThree_AAG
             // 
-            this.groupBoxNamedThree_AAG.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBoxNamedThree_AAG.BackColor = System.Drawing.SystemColors.Control;
             this.groupBoxNamedThree_AAG.Controls.Add(this.groupBoxNamedSix_AAG);
             this.groupBoxNamedThree_AAG.Location = new System.Drawing.Point(12, 215);
             this.groupBoxNamedThree_AAG.Name = "groupBoxNamedThree_AAG";
@@ -114,7 +114,7 @@ namespace Tyuiu.AramaAG.Sprint6.Task0.V17
             // 
             // nameX_AAG
             // 
-            this.nameX_AAG.BackColor = System.Drawing.SystemColors.Menu;
+            this.nameX_AAG.BackColor = System.Drawing.SystemColors.HighlightText;
             this.nameX_AAG.Location = new System.Drawing.Point(12, 39);
             this.nameX_AAG.Name = "nameX_AAG";
             this.nameX_AAG.Size = new System.Drawing.Size(306, 26);
@@ -123,7 +123,7 @@ namespace Tyuiu.AramaAG.Sprint6.Task0.V17
             // 
             // groupBoxNamedFour_AAG
             // 
-            this.groupBoxNamedFour_AAG.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBoxNamedFour_AAG.BackColor = System.Drawing.SystemColors.Control;
             this.groupBoxNamedFour_AAG.Controls.Add(this.Result_AAG);
             this.groupBoxNamedFour_AAG.Controls.Add(this.groupBoxNameddTwo_AAG);
             this.groupBoxNamedFour_AAG.Location = new System.Drawing.Point(424, 215);
@@ -135,7 +135,7 @@ namespace Tyuiu.AramaAG.Sprint6.Task0.V17
             // 
             // Result_AAG
             // 
-            this.Result_AAG.BackColor = System.Drawing.SystemColors.Menu;
+            this.Result_AAG.BackColor = System.Drawing.SystemColors.HighlightText;
             this.Result_AAG.Location = new System.Drawing.Point(37, 77);
             this.Result_AAG.Name = "Result_AAG";
             this.Result_AAG.ReadOnly = true;
@@ -163,36 +163,38 @@ namespace Tyuiu.AramaAG.Sprint6.Task0.V17
             this.buttonNamedOne_AAG.UseVisualStyleBackColor = false;
             this.buttonNamedOne_AAG.Click += new System.EventHandler(this.buttonResult_AAG_Click);
             // 
-            // buttonNamedThree_AAG
+            // buttonHelp_AAG
             // 
-            this.buttonNamedThree_AAG.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.buttonNamedThree_AAG.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonNamedThree_AAG.Location = new System.Drawing.Point(425, 371);
-            this.buttonNamedThree_AAG.Name = "buttonNamedThree_AAG";
-            this.buttonNamedThree_AAG.Size = new System.Drawing.Size(54, 39);
-            this.buttonNamedThree_AAG.TabIndex = 6;
-            this.buttonNamedThree_AAG.Text = "?";
-            this.buttonNamedThree_AAG.UseVisualStyleBackColor = false;
-            this.buttonNamedThree_AAG.Click += new System.EventHandler(this.buttonHelp_AAG_Click);
+            this.buttonHelp_AAG.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.buttonHelp_AAG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonHelp_AAG.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonHelp_AAG.Location = new System.Drawing.Point(425, 371);
+            this.buttonHelp_AAG.Name = "buttonHelp_AAG";
+            this.buttonHelp_AAG.Size = new System.Drawing.Size(54, 39);
+            this.buttonHelp_AAG.TabIndex = 6;
+            this.buttonHelp_AAG.Text = "?";
+            this.buttonHelp_AAG.UseVisualStyleBackColor = false;
+            this.buttonHelp_AAG.Click += new System.EventHandler(this.buttonHelp_AAG_Click);
             // 
             // FormMain
             // 
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(705, 425);
-            this.Controls.Add(this.buttonNamedThree_AAG);
+            this.Controls.Add(this.buttonHelp_AAG);
             this.Controls.Add(this.buttonNamedOne_AAG);
             this.Controls.Add(this.groupBoxNamedFour_AAG);
             this.Controls.Add(this.groupBoxNamedThree_AAG);
-            this.Controls.Add(this.groupBoxNamedTwo_AAG);
+            this.Controls.Add(this.groupBoxCondition_AAG);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 0 | Вариант 17 | Арама А. Г.";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNamedTwo_AAG)).EndInit();
-            this.groupBoxNamedTwo_AAG.ResumeLayout(false);
-            this.groupBoxNamedTwo_AAG.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_AAG)).EndInit();
+            this.groupBoxCondition_AAG.ResumeLayout(false);
+            this.groupBoxCondition_AAG.PerformLayout();
             this.groupBoxNamedThree_AAG.ResumeLayout(false);
             this.groupBoxNamedSix_AAG.ResumeLayout(false);
             this.groupBoxNamedSix_AAG.PerformLayout();
@@ -209,15 +211,15 @@ namespace Tyuiu.AramaAG.Sprint6.Task0.V17
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.PictureBox pictureBoxNamedTwo_AAG;
-        private System.Windows.Forms.GroupBox groupBoxNamedTwo_AAG;
+        private System.Windows.Forms.PictureBox pictureBoxFormula_AAG;
+        private System.Windows.Forms.GroupBox groupBoxCondition_AAG;
         private System.Windows.Forms.GroupBox groupBoxNamedThree_AAG;
         private System.Windows.Forms.GroupBox groupBoxNamedFour_AAG;
         private System.Windows.Forms.Button buttonNamedOne_AAG;
-        private System.Windows.Forms.Button buttonNamedThree_AAG;
+        private System.Windows.Forms.Button buttonHelp_AAG;
         private System.Windows.Forms.TextBox nameX_AAG;
         private System.Windows.Forms.GroupBox groupBoxNamedSix_AAG;
-        private System.Windows.Forms.TextBox textBoxNamedFour_AAG;
+        private System.Windows.Forms.TextBox textBoxTestTask_AAG;
         private System.Windows.Forms.GroupBox groupBoxNameddTwo_AAG;
         private System.Windows.Forms.TextBox Result_AAG;
     }
