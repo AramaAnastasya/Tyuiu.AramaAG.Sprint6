@@ -67,5 +67,20 @@ namespace Tyuiu.AramaAG.Sprint6.Task5.V2
         {
 
         }
+
+        private void chartResult_AAG_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
