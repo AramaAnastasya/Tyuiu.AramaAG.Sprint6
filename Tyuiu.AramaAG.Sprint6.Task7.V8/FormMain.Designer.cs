@@ -26,31 +26,31 @@ namespace Tyuiu.AramaAG.Sprint6.Task7.V8
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.panelOne_AAG = new System.Windows.Forms.Panel();
+            this.buttonSave_AAG = new System.Windows.Forms.Button();
+            this.buttonHelp_AAG = new System.Windows.Forms.Button();
+            this.buttonDone_AAG = new System.Windows.Forms.Button();
+            this.buttonOpenFile_AAG = new System.Windows.Forms.Button();
             this.panelTwo_AAG = new System.Windows.Forms.Panel();
             this.groupBoxNameedOne_AAG = new System.Windows.Forms.GroupBox();
             this.textBoxNamedOne_AAG = new System.Windows.Forms.TextBox();
             this.panelThree_AAG = new System.Windows.Forms.Panel();
             this.groupBoxTwo_AAG = new System.Windows.Forms.GroupBox();
+            this.dataGridViewInMatrix_AAG = new System.Windows.Forms.DataGridView();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.panelFour_AAG = new System.Windows.Forms.Panel();
             this.groupBoxThree_AAG = new System.Windows.Forms.GroupBox();
+            this.dataGridViewOutMatrix_AAG = new System.Windows.Forms.DataGridView();
             this.openFileDialogTask = new System.Windows.Forms.OpenFileDialog();
             this.toolTipOne = new System.Windows.Forms.ToolTip(this.components);
-            this.dataGridViewInMatrix_AAG = new System.Windows.Forms.DataGridView();
-            this.dataGridViewOutMatrix_AAG = new System.Windows.Forms.DataGridView();
-            this.buttonSave_AAG = new System.Windows.Forms.Button();
-            this.buttonHelp_AAG = new System.Windows.Forms.Button();
-            this.buttonDone_AAG = new System.Windows.Forms.Button();
-            this.buttonOpenFile_AAG = new System.Windows.Forms.Button();
             this.saveFileDialogMatrix_AAG = new System.Windows.Forms.SaveFileDialog();
             this.panelOne_AAG.SuspendLayout();
             this.panelTwo_AAG.SuspendLayout();
             this.groupBoxNameedOne_AAG.SuspendLayout();
             this.panelThree_AAG.SuspendLayout();
             this.groupBoxTwo_AAG.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInMatrix_AAG)).BeginInit();
             this.panelFour_AAG.SuspendLayout();
             this.groupBoxThree_AAG.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInMatrix_AAG)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOutMatrix_AAG)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,6 +66,64 @@ namespace Tyuiu.AramaAG.Sprint6.Task7.V8
             this.panelOne_AAG.Name = "panelOne_AAG";
             this.panelOne_AAG.Size = new System.Drawing.Size(1048, 106);
             this.panelOne_AAG.TabIndex = 0;
+            // 
+            // buttonSave_AAG
+            // 
+            this.buttonSave_AAG.Enabled = false;
+            this.buttonSave_AAG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSave_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task7.V8.Properties.Resources.page_save;
+            this.buttonSave_AAG.Location = new System.Drawing.Point(219, 13);
+            this.buttonSave_AAG.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonSave_AAG.Name = "buttonSave_AAG";
+            this.buttonSave_AAG.Size = new System.Drawing.Size(98, 82);
+            this.buttonSave_AAG.TabIndex = 3;
+            this.toolTipOne.SetToolTip(this.buttonSave_AAG, "Сохранить обработанные данные в формате csv");
+            this.buttonSave_AAG.UseVisualStyleBackColor = true;
+            this.buttonSave_AAG.Click += new System.EventHandler(this.ClickSave_AAG);
+            this.buttonSave_AAG.MouseEnter += new System.EventHandler(this.ClickSaveFile_AAG);
+            // 
+            // buttonHelp_AAG
+            // 
+            this.buttonHelp_AAG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonHelp_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task7.V8.Properties.Resources.help;
+            this.buttonHelp_AAG.Location = new System.Drawing.Point(928, 15);
+            this.buttonHelp_AAG.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonHelp_AAG.Name = "buttonHelp_AAG";
+            this.buttonHelp_AAG.Size = new System.Drawing.Size(100, 82);
+            this.buttonHelp_AAG.TabIndex = 2;
+            this.toolTipOne.SetToolTip(this.buttonHelp_AAG, "Сведение о программе");
+            this.buttonHelp_AAG.UseVisualStyleBackColor = true;
+            this.buttonHelp_AAG.Click += new System.EventHandler(this.ClickHelp_AAG);
+            this.buttonHelp_AAG.MouseEnter += new System.EventHandler(this.ClickHelpFile_AAG);
+            // 
+            // buttonDone_AAG
+            // 
+            this.buttonDone_AAG.Enabled = false;
+            this.buttonDone_AAG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDone_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task7.V8.Properties.Resources.page_go;
+            this.buttonDone_AAG.Location = new System.Drawing.Point(115, 15);
+            this.buttonDone_AAG.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonDone_AAG.Name = "buttonDone_AAG";
+            this.buttonDone_AAG.Size = new System.Drawing.Size(98, 82);
+            this.buttonDone_AAG.TabIndex = 1;
+            this.toolTipOne.SetToolTip(this.buttonDone_AAG, "Выполнить обработку данных");
+            this.buttonDone_AAG.UseVisualStyleBackColor = false;
+            this.buttonDone_AAG.Click += new System.EventHandler(this.ClickDone_AAG);
+            this.buttonDone_AAG.MouseEnter += new System.EventHandler(this.ClickDoneFile_AAG);
+            // 
+            // buttonOpenFile_AAG
+            // 
+            this.buttonOpenFile_AAG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonOpenFile_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task7.V8.Properties.Resources.folder_page;
+            this.buttonOpenFile_AAG.Location = new System.Drawing.Point(14, 15);
+            this.buttonOpenFile_AAG.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonOpenFile_AAG.Name = "buttonOpenFile_AAG";
+            this.buttonOpenFile_AAG.Size = new System.Drawing.Size(94, 82);
+            this.buttonOpenFile_AAG.TabIndex = 0;
+            this.toolTipOne.SetToolTip(this.buttonOpenFile_AAG, "Открыть файл  для обработки данных в формате cvs");
+            this.buttonOpenFile_AAG.UseVisualStyleBackColor = true;
+            this.buttonOpenFile_AAG.Click += new System.EventHandler(this.ClickOpenFile_AAG);
+            this.buttonOpenFile_AAG.MouseEnter += new System.EventHandler(this.VouseEntesOpen_AAG);
             // 
             // panelTwo_AAG
             // 
@@ -123,6 +181,18 @@ namespace Tyuiu.AramaAG.Sprint6.Task7.V8
             this.groupBoxTwo_AAG.TabStop = false;
             this.groupBoxTwo_AAG.Text = "Ввод";
             // 
+            // dataGridViewInMatrix_AAG
+            // 
+            this.dataGridViewInMatrix_AAG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewInMatrix_AAG.ColumnHeadersVisible = false;
+            this.dataGridViewInMatrix_AAG.Location = new System.Drawing.Point(6, 26);
+            this.dataGridViewInMatrix_AAG.Name = "dataGridViewInMatrix_AAG";
+            this.dataGridViewInMatrix_AAG.RowHeadersVisible = false;
+            this.dataGridViewInMatrix_AAG.RowHeadersWidth = 62;
+            this.dataGridViewInMatrix_AAG.RowTemplate.Height = 28;
+            this.dataGridViewInMatrix_AAG.Size = new System.Drawing.Size(475, 372);
+            this.dataGridViewInMatrix_AAG.TabIndex = 0;
+            // 
             // splitter1
             // 
             this.splitter1.Location = new System.Drawing.Point(507, 215);
@@ -154,27 +224,6 @@ namespace Tyuiu.AramaAG.Sprint6.Task7.V8
             this.groupBoxThree_AAG.TabStop = false;
             this.groupBoxThree_AAG.Text = "Вывод";
             // 
-            // openFileDialogTask
-            // 
-            this.openFileDialogTask.FileName = "openFileDialog";
-            // 
-            // toolTipOne
-            // 
-            this.toolTipOne.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.toolTipOne.ToolTipTitle = "Подсказка";
-            // 
-            // dataGridViewInMatrix_AAG
-            // 
-            this.dataGridViewInMatrix_AAG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewInMatrix_AAG.ColumnHeadersVisible = false;
-            this.dataGridViewInMatrix_AAG.Location = new System.Drawing.Point(6, 26);
-            this.dataGridViewInMatrix_AAG.Name = "dataGridViewInMatrix_AAG";
-            this.dataGridViewInMatrix_AAG.RowHeadersVisible = false;
-            this.dataGridViewInMatrix_AAG.RowHeadersWidth = 62;
-            this.dataGridViewInMatrix_AAG.RowTemplate.Height = 28;
-            this.dataGridViewInMatrix_AAG.Size = new System.Drawing.Size(475, 372);
-            this.dataGridViewInMatrix_AAG.TabIndex = 0;
-            // 
             // dataGridViewOutMatrix_AAG
             // 
             this.dataGridViewOutMatrix_AAG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -187,63 +236,14 @@ namespace Tyuiu.AramaAG.Sprint6.Task7.V8
             this.dataGridViewOutMatrix_AAG.Size = new System.Drawing.Size(475, 375);
             this.dataGridViewOutMatrix_AAG.TabIndex = 1;
             // 
-            // buttonSave_AAG
+            // openFileDialogTask
             // 
-            this.buttonSave_AAG.Enabled = false;
-            this.buttonSave_AAG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSave_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task7.V8.Properties.Resources.page_save;
-            this.buttonSave_AAG.Location = new System.Drawing.Point(219, 13);
-            this.buttonSave_AAG.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.buttonSave_AAG.Name = "buttonSave_AAG";
-            this.buttonSave_AAG.Size = new System.Drawing.Size(98, 82);
-            this.buttonSave_AAG.TabIndex = 3;
-            this.toolTipOne.SetToolTip(this.buttonSave_AAG, "Сохранить обработанные данные в формате csv");
-            this.buttonSave_AAG.UseVisualStyleBackColor = true;
-            this.buttonSave_AAG.Click += new System.EventHandler(this.ClickSave_AAG);
-            this.buttonSave_AAG.MouseEnter += new System.EventHandler(this.ClickSaveFile_AAG);
+            this.openFileDialogTask.FileName = "openFileDialog";
             // 
-            // buttonHelp_AAG
+            // toolTipOne
             // 
-            this.buttonHelp_AAG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonHelp_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task7.V8.Properties.Resources.help;
-            this.buttonHelp_AAG.Location = new System.Drawing.Point(928, 15);
-            this.buttonHelp_AAG.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.buttonHelp_AAG.Name = "buttonHelp_AAG";
-            this.buttonHelp_AAG.Size = new System.Drawing.Size(100, 82);
-            this.buttonHelp_AAG.TabIndex = 2;
-            this.toolTipOne.SetToolTip(this.buttonHelp_AAG, "Сведение о программе");
-            this.buttonHelp_AAG.UseVisualStyleBackColor = true;
-            this.buttonHelp_AAG.Click += new System.EventHandler(this.ClickHelp_AAG);
-            this.buttonHelp_AAG.MouseEnter += new System.EventHandler(this.ClickHelpFile_AAG);
-            // 
-            // buttonDone_AAG
-            // 
-            this.buttonDone_AAG.Enabled = false;
-            this.buttonDone_AAG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonDone_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task7.V8.Properties.Resources.page_go;
-            this.buttonDone_AAG.Location = new System.Drawing.Point(115, 15);
-            this.buttonDone_AAG.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.buttonDone_AAG.Name = "buttonDone_AAG";
-            this.buttonDone_AAG.Size = new System.Drawing.Size(98, 82);
-            this.buttonDone_AAG.TabIndex = 1;
-            this.toolTipOne.SetToolTip(this.buttonDone_AAG, "Выпонить обратку \r\nВыполнить обработку данных");
-            this.buttonDone_AAG.UseVisualStyleBackColor = false;
-            this.buttonDone_AAG.Click += new System.EventHandler(this.ClickDone_AAG);
-            this.buttonDone_AAG.MouseEnter += new System.EventHandler(this.ClickDoneFile_AAG);
-            // 
-            // buttonOpenFile_AAG
-            // 
-            this.buttonOpenFile_AAG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonOpenFile_AAG.Image = global::Tyuiu.AramaAG.Sprint6.Task7.V8.Properties.Resources.folder_page;
-            this.buttonOpenFile_AAG.Location = new System.Drawing.Point(14, 15);
-            this.buttonOpenFile_AAG.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.buttonOpenFile_AAG.Name = "buttonOpenFile_AAG";
-            this.buttonOpenFile_AAG.Size = new System.Drawing.Size(94, 82);
-            this.buttonOpenFile_AAG.TabIndex = 0;
-            this.toolTipOne.SetToolTip(this.buttonOpenFile_AAG, "Открыть файл\r\nОткрыть файл  для обработки данных в формате cvs");
-            this.buttonOpenFile_AAG.UseVisualStyleBackColor = true;
-            this.buttonOpenFile_AAG.Click += new System.EventHandler(this.ClickOpenFile_AAG);
-            this.buttonOpenFile_AAG.MouseEnter += new System.EventHandler(this.VouseEntesOpen_AAG);
+            this.toolTipOne.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.toolTipOne.ToolTipTitle = "Подсказка";
             // 
             // FormMain
             // 
@@ -267,9 +267,9 @@ namespace Tyuiu.AramaAG.Sprint6.Task7.V8
             this.groupBoxNameedOne_AAG.PerformLayout();
             this.panelThree_AAG.ResumeLayout(false);
             this.groupBoxTwo_AAG.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInMatrix_AAG)).EndInit();
             this.panelFour_AAG.ResumeLayout(false);
             this.groupBoxThree_AAG.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInMatrix_AAG)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOutMatrix_AAG)).EndInit();
             this.ResumeLayout(false);
 
