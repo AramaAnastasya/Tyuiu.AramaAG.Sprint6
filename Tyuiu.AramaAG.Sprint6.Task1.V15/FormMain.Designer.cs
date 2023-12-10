@@ -30,7 +30,7 @@ namespace Tyuiu.AramaAG.Sprint6.Task1.V15
         private void InitializeComponent()
         {
             this.textBoxResult_AAG = new System.Windows.Forms.TextBox();
-            this.groupBoxNamedOne_AAG = new System.Windows.Forms.GroupBox();
+            this.groupBoxVvodData_AAG = new System.Windows.Forms.GroupBox();
             this.labelTextResult_AAG = new System.Windows.Forms.Label();
             this.buttonDone_AAG = new System.Windows.Forms.Button();
             this.buttonHelp_AAG = new System.Windows.Forms.Button();
@@ -41,7 +41,7 @@ namespace Tyuiu.AramaAG.Sprint6.Task1.V15
             this.textBoxStartStep_AAG = new System.Windows.Forms.TextBox();
             this.groupBoxConditions_AAG = new System.Windows.Forms.GroupBox();
             this.textBoxConditions_AAG = new System.Windows.Forms.TextBox();
-            this.groupBoxNamedOne_AAG.SuspendLayout();
+            this.groupBoxVvodData_AAG.SuspendLayout();
             this.groupBoxData_AAG.SuspendLayout();
             this.groupBoxConditions_AAG.SuspendLayout();
             this.SuspendLayout();
@@ -58,19 +58,19 @@ namespace Tyuiu.AramaAG.Sprint6.Task1.V15
             this.textBoxResult_AAG.Size = new System.Drawing.Size(319, 398);
             this.textBoxResult_AAG.TabIndex = 0;
             // 
-            // groupBoxNamedOne_AAG
+            // groupBoxVvodData_AAG
             // 
-            this.groupBoxNamedOne_AAG.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBoxNamedOne_AAG.Controls.Add(this.labelTextResult_AAG);
-            this.groupBoxNamedOne_AAG.Controls.Add(this.textBoxResult_AAG);
-            this.groupBoxNamedOne_AAG.Location = new System.Drawing.Point(549, 6);
-            this.groupBoxNamedOne_AAG.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBoxNamedOne_AAG.Name = "groupBoxNamedOne_AAG";
-            this.groupBoxNamedOne_AAG.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBoxNamedOne_AAG.Size = new System.Drawing.Size(333, 459);
-            this.groupBoxNamedOne_AAG.TabIndex = 1;
-            this.groupBoxNamedOne_AAG.TabStop = false;
-            this.groupBoxNamedOne_AAG.Text = "Вывод данных";
+            this.groupBoxVvodData_AAG.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBoxVvodData_AAG.Controls.Add(this.labelTextResult_AAG);
+            this.groupBoxVvodData_AAG.Controls.Add(this.textBoxResult_AAG);
+            this.groupBoxVvodData_AAG.Location = new System.Drawing.Point(549, 6);
+            this.groupBoxVvodData_AAG.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBoxVvodData_AAG.Name = "groupBoxVvodData_AAG";
+            this.groupBoxVvodData_AAG.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBoxVvodData_AAG.Size = new System.Drawing.Size(333, 459);
+            this.groupBoxVvodData_AAG.TabIndex = 1;
+            this.groupBoxVvodData_AAG.TabStop = false;
+            this.groupBoxVvodData_AAG.Text = "Вывод данных";
             // 
             // labelTextResult_AAG
             // 
@@ -190,15 +190,15 @@ namespace Tyuiu.AramaAG.Sprint6.Task1.V15
             this.Controls.Add(this.groupBoxData_AAG);
             this.Controls.Add(this.buttonHelp_AAG);
             this.Controls.Add(this.buttonDone_AAG);
-            this.Controls.Add(this.groupBoxNamedOne_AAG);
+            this.Controls.Add(this.groupBoxVvodData_AAG);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 1 | Вариант 15 | Арама А. Г.";
-            this.groupBoxNamedOne_AAG.ResumeLayout(false);
-            this.groupBoxNamedOne_AAG.PerformLayout();
+            this.groupBoxVvodData_AAG.ResumeLayout(false);
+            this.groupBoxVvodData_AAG.PerformLayout();
             this.groupBoxData_AAG.ResumeLayout(false);
             this.groupBoxData_AAG.PerformLayout();
             this.groupBoxConditions_AAG.ResumeLayout(false);
@@ -210,7 +210,7 @@ namespace Tyuiu.AramaAG.Sprint6.Task1.V15
         #endregion
 
         private System.Windows.Forms.TextBox textBoxResult_AAG;
-        private System.Windows.Forms.GroupBox groupBoxNamedOne_AAG;
+        private System.Windows.Forms.GroupBox groupBoxVvodData_AAG;
         private System.Windows.Forms.Button buttonDone_AAG;
         private System.Windows.Forms.Button buttonHelp_AAG;
         private System.Windows.Forms.GroupBox groupBoxData_AAG;
