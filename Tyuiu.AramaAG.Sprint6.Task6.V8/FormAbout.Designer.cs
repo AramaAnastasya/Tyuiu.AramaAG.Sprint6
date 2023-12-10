@@ -39,7 +39,7 @@ namespace Tyuiu.AramaAG.Sprint6.Task6.V8
             // labelInfo_AAG
             // 
             this.labelInfo_AAG.AutoSize = true;
-            this.labelInfo_AAG.Location = new System.Drawing.Point(106, 41);
+            this.labelInfo_AAG.Location = new System.Drawing.Point(104, 18);
             this.labelInfo_AAG.Name = "labelInfo_AAG";
             this.labelInfo_AAG.Size = new System.Drawing.Size(413, 180);
             this.labelInfo_AAG.TabIndex = 1;

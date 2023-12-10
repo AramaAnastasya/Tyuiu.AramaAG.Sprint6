@@ -23,10 +23,10 @@ namespace Tyuiu.AramaAG.Sprint6.Task6.V8
         DataService ds = new DataService();
         private void buttonOpenFile_AAG_Click(object sender, EventArgs e)
         {
-            openFileDialogTask.ShowDialog();
-            openFilePath = openFileDialogTask.FileName;
+            openFileDialogTask_AAG.ShowDialog();
+            openFilePath = openFileDialogTask_AAG.FileName;
             textBoxLoadFromFile_AAG.Text = File.ReadAllText(openFilePath);
-            groupBoxTwo_AAG.Text = groupBoxTwo_AAG.Text + " " + openFileDialogTask.FileName;
+            groupBoxVvodData_AAG.Text = groupBoxVvodData_AAG.Text + " " + openFileDialogTask_AAG.FileName;
             buttonDone_AAG.Enabled = true;
         }
 
