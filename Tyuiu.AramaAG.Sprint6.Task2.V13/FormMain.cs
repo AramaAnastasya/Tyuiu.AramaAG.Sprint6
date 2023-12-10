@@ -65,5 +65,20 @@ namespace Tyuiu.AramaAG.Sprint6.Task2.V13
         {
             MessageBox.Show("Task2 выполнил студент группы СМАРТб,-23-1 Арама Анастасия Георгиевна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void buttonDone_AAG_MouseEnter(object sender, EventArgs e)
+        {
+            buttonDone_AAG.BackColor = Color.Red;
+        }
+
+        private void buttonDone_AAG_MouseLeave(object sender, EventArgs e)
+        {
+            buttonDone_AAG.BackColor = Color.DarkGreen;
+        }
+
+        private void buttonDone_AAG_MouseDown(object sender, MouseEventArgs e)
+        {
+            buttonDone_AAG.BackColor = Color.Blue;
+        }
     }
 }
